@@ -19,7 +19,7 @@
 <div id="hosts" class="container-wrap-table">
 
   <div class="row">
-    <h2 class="table-title col-sm-1">{{t common.hosts}}</h2>
+    <h2 class="table-title col-sm-2">{{t common.hosts}}</h2>
     <div class="table-controls row col-sm-10 pull-right">
       <div class="col-sm-12">
         {{#havePermissions "HOST.ADD_DELETE_COMPONENTS, HOST.TOGGLE_MAINTENANCE, HOST.ADD_DELETE_HOSTS"}}
@@ -34,6 +34,7 @@
       </div>
     </div>
   </div>
+  
   <div class="row search-box-row hide">
     {{view App.MainHostComboSearchBoxView}}
   </div>

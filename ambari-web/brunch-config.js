@@ -134,7 +134,8 @@ module.exports.config = {
   server: {
     port: 3333,
     base: '/',
-    run: 'no'
+    stripSlashes: true
+    //run: 'no'
   },
 
   sourceMaps: false
